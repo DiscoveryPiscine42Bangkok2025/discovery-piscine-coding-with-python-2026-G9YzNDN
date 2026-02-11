@@ -1,4 +1,4 @@
-input1 = int(input("Enter number less than 25"))
+input1 = int(input("Enter number less than 25\n"))
 if input1 > 25:
         print("Error")
 else:
