@@ -1,5 +1,5 @@
 input1 = int(input("Enter a number\n"))
-i = 0
-while i <= 9:
-	print(f"{i} x {input1} = {i*input1}")
-	i += 1
+test = 0
+while test <= 9:
+	print(f"{test} x {input1} = {test*input1}")
+	test += 1
