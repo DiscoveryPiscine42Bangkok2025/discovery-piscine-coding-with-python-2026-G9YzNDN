@@ -68,7 +68,9 @@ def checkmate(board_text: str):
                 piece = board_rows[scan_row][scan_col]
 
                 if piece != ".":
-                    return piece in target_pieces
+                    if piece in target_pieces:
+                        return True
+                    break
 
                 scan_row += row_step
                 scan_col += col_step
